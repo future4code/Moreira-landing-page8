@@ -1,0 +1,83 @@
+/*Cores
+rgb(37, 150, 190)
+#132235*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+#quem-somos{
+    padding: 2rem;
+    background-color: rgba(37, 150, 190, 0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom:1rem;
+    font-size: 2rem;
+    color: #132235;
+}   
+
+#conteudo-quem-somos{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#conteudo-quem-somos p{
+    min-width: 450px;
+    width: 60%;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 2rem;
+}   
+
+#container-img-qs{
+    min-width: 450px;
+    width: 40%;
+    height: 500px;
+    /* border: 1px black solid; */
+    position: relative;
+}
+
+#img-qs1{
+    width: 70%;
+    position: absolute;
+}
+
+#img-qs2{
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top:25%;
+    z-index: 1;
+}
+
+#img-qs3{
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 700px) {
+    #container-img-qs{
+        width: 100%;
+        min-width: none;
+    }
+    #conteudo-quem-somos p{
+        width: 100%;
+        min-width: none;
+    }
+}
