@@ -150,7 +150,32 @@ footer img{
         min-width: none;
         
     }
+}
 
-    /*Sessão Contatos*/
-  
+/*Cabeçalho*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(37, 150, 190, 0.05);
+}
+
+.cabecalho-logo img {
+    width: 40%;
+}
+
+header nav {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #132235;
+    font-weight: 900;
 }
