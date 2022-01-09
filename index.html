@@ -15,12 +15,24 @@
         <div class="cabecalho-logo">
             <img src="img/logo-pequeno.PNG" alt="Logomarca da empresa F4Life">
         </div>
-        <nav>
+        <nav id="menu-desktop">
             <a href="#home">Home</a>
             <a href="#quem-somos">Quem Somos</a>
             <a href="#produtos">Produtos</a>
             <a href="#nosso-time">Nosso Time</a>
             <a href="#contatos">Contato</a>
+        </nav>
+        <nav id="menu-mobile">
+            <details>
+                <summary>
+                    <img src="img/barra-de-menu.png" alt="icone menu">
+                </summary>
+                <a href="#home">Home</a>
+                <a href="#quem-somos">Quem Somos</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#nosso-time">Nosso Time</a>
+                <a href="#contatos">Contato</a>
+            </details>
         </nav>
     </header>
     <section id="quem-somos">
@@ -35,7 +47,8 @@
                 <br>
                 Cras tincidunt purus eu risus porta, ut vulputate justo gravida. Nunc eu mi interdum, justo sit
                 amet, consectetur dolor. Cras urna leo, finibus eget viverra sit amet, vehicula eget est. Suspendisse a
-                nisl aliquam, ullamcorper ante in, facilisis ante.</p>
+                nisl aliquam, ullamcorper ante in, facilisis ante.
+            </p>
             <div id="container-img-qs">
                 <img id="img-qs1" src="img/pessoas-trabalhando-no-plano.jpg">
                 <img id="img-qs2" src="img/app.jpg">
@@ -60,14 +73,18 @@
         </div>
     </section>
 
-<section id="nosso-time">
-    <h1>Nosso Time</h1>
-    <div class="conteudo-nosso-time">
-        <img src="img/equipe.jpg" alt="Imagem de uma Equipe">
-        <p>Nosso time diverso de talentosos corretores não só indicam as melhores opções de kitnets e moradias compartilhadas para você, mas também estão sempre disponíveis para te atender de forma personalizada e atenciosa, levando sempre em consideração as diferenças, as características financeiras, pessoais e de preferências de cada um. Tratamos a sua procura por moradia como nossa prioridade, como se fosse nossa própria casa.</p>
-    </div>
+    <section id="nosso-time">
+        <h1>Nosso Time</h1>
+        <div class="conteudo-nosso-time">
+            <img src="img/equipe.jpg" alt="Imagem de uma Equipe">
+            <p>Nosso time diverso de talentosos corretores não só indicam as melhores opções de kitnets e moradias
+                compartilhadas para você, mas também estão sempre disponíveis para te atender de forma personalizada e
+                atenciosa, levando sempre em consideração as diferenças, as características financeiras, pessoais e de
+                preferências de cada um. Tratamos a sua procura por moradia como nossa prioridade, como se fosse nossa
+                própria casa.</p>
+        </div>
 
-</section>
+    </section>
 
     <section id="contatos">
         <img id="logo-img" src="img/logo-puro.png">
@@ -123,7 +140,7 @@
 
 
     <footer>
-        <div id="footer-p1"> 
+        <div id="footer-p1">
             <img src="img/logo-puro.png">
             © 2021 F4Life S.A - Instituição de Corretagem. 18.000.863/1233-11
             Rua do Limoeiro, 39 - Terra do Nunca, TN - 4000-023
