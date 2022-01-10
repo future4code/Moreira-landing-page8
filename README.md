@@ -18,4 +18,3 @@ Mobile:
 ![image](https://user-images.githubusercontent.com/94767959/148713531-0a9fb838-e031-4b19-87c0-1d1a56d29201.png)
 ![image](https://user-images.githubusercontent.com/94767959/148713537-f46ac901-0a87-47f0-9572-fbfd8ba051d4.png)
 ![image](https://user-images.githubusercontent.com/94767959/148713540-1b8a9de1-52e0-4979-8414-ebd63386b474.png)
-![image](https://user-images.githubusercontent.com/94767959/148713545-97ea2f7c-3167-415b-a31e-2cbab8b33c7c.png)
